@@ -1,0 +1,35 @@
+# Ignorar arquivos e pastas do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de ambiente virtual
+venv/
+env/
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignorar arquivos de configuração do IDE
+.vscode/
+.idea/
+
+# Ignorar arquivos de logs
+*.log
+
+
+# Ignorar arquivos de cache
+*.cache
+*.pkl
+
+# Ignorar arquivos de gráficos gerados
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# Ignorar arquivos de dependências
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignorar arquivos de configuração de execução
+*.env
