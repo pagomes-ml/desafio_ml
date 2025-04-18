@@ -71,8 +71,8 @@ r2 = r2_score(y_test, y_pred)
 print("R-squared (R2) com Random Forest:", r2)
 
 # Visualizando as previsões
-plt.scatter(range(len(y_test)), y_test, label='Real')
-plt.scatter(range(len(y_pred)), y_pred, label='Previsto', color='red')
+plt.scatter(X_test_scaled, y_test, label='Real')
+plt.scatter(X_test_scaled, y_pred, label='Previsto', color='red')
 plt.xlabel('Pacientes')
 plt.ylabel('Valor Despesa Médica')
 plt.title('Previsões do Modelo de Regressão Linear')
